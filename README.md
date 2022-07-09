@@ -1,7 +1,9 @@
 #Getting starting
 This readme is designed to get a user teach a user how to print their first hello world from the ESP32 devkit v1 using windows OS.
 
-#1 First, click this link [click here](https://dl.espressif.com/dl/idf-installer/espressif-ide-setup-espressif-ide-2.5.0-with-esp-idf-4.4.exe) for the downloaded needed
+#1 First, click this link [click here](https://dl.espressif.com/dl/idf-installer/espressif-ide-setup-espressif-ide-2.5.0-with-esp-idf-4.4.exe) for the downloaded needed. if deprecated, come [here](https://dl.espressif.com/dl/esp-idf/?idf=4.4)
+- click [here](https://code.visualstudio.com/Download) to get the latest version of vscode
+- 
 
 #2 After the installation is done, click this link [click here](https://gitforwindows.org/) to download git
     if you already have git installed, you may skip this step.
@@ -26,10 +28,12 @@ git submodule update --init
 #5 copying hello_world from the example directory, then naming the new file hello_world. past these commands in terminal
 ```
  cd %HOMEPATH%\esp
- xcopy /e /i %IDF_PATH%\examples\get-started\hello_world hello_world 
+ xcopy /e /i %IDF_PATH%\examples\get-started\hello_world hello_world
+ code ./
 ```
 
-#6 nearly done, we need to run the menuconfig command, past the following code into terminal
+#6 nearly done, we need to run the menuconfig command, past the following code into vscode terminal
+- CTRL + SHIFT + ~ to open terminal in vscode
 ```
  cd %userprofile%\esp\hello_world
  idf.py menuconfig 
