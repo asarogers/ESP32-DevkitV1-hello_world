@@ -3,7 +3,7 @@ This readme is designed to get a user teach a user how to print their first hell
 
 #1 First, click this link [click here](https://dl.espressif.com/dl/idf-installer/espressif-ide-setup-espressif-ide-2.5.0-with-esp-idf-4.4.exe) for the downloaded needed. if deprecated, come [here](https://dl.espressif.com/dl/esp-idf/?idf=4.4)
 - click [here](https://code.visualstudio.com/Download) to get the latest version of vscode
-- 
+- click [here](https://www.python.org/downloads/) to get the latest version of python3
 
 #2 After the installation is done, click this link [click here](https://gitforwindows.org/) to download git
     if you already have git installed, you may skip this step.
