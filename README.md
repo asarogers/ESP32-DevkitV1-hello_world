@@ -9,11 +9,11 @@ This readme is designed to get a user teach a user how to print their first hell
 #3 Please past these commands in the cmd terminal
 
 cd %HOMEPATH%
-'mkdir esp'
-'cd esp'
-'git clone --recursive https://github.com/espressif/esp-idf.git'
-'cd esp-idf'
-'git submodule update --init'
+`mkdir esp
+cd esp
+git clone --recursive https://github.com/espressif/esp-idf.git
+cd esp-idf
+git submodule update --init`
 
 #4 tap the windows key, type "Edit the system environment variables"
 - click on environment variabels
@@ -23,16 +23,16 @@ cd %HOMEPATH%
 - return home
 
 #5 copying hello_world from the example directory, then naming the new file hello_world. past these commands in terminal
-- cd %HOMEPATH%\esp
-- xcopy /e /i %IDF_PATH%\examples\get-started\hello_world hello_world
+` cd %HOMEPATH%\esp
+ xcopy /e /i %IDF_PATH%\examples\get-started\hello_world hello_world `
 
 #6 nearly done, we need to run the menuconfig command, past the following code into terminal
-- cd %userprofile%\esp\hello_world
-- idf.py menuconfig
+` cd %userprofile%\esp\hello_world
+ idf.py menuconfig `
 
 when it's done, type this into terminal
-- clear
-- idf.py build
+` clear
+ idf.py build `
 
 #7 finally plug in the ESP32 if you have not already. 
 - tap windows key
