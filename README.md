@@ -45,5 +45,5 @@ my port is COM8
 Now run idf.py -p (PORT) flash monitor in the terminal.
 Example: idf.py -p COM8 flash monitor
 
-NOTE: some users will need to tap the upload button on the right side of the board
+>NOTE: some users will need to tap the upload button on the right side of the board
 It will print hello world 4 
