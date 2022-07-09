@@ -1,9 +1,9 @@
 #Getting starting
 This readme is designed to get a user teach a user how to print their first hello world from the ESP32 devkit v1 using windows OS.
 
-#1 First, click this link [click here](https://dl.espressif.com/dl/esp-idf-tools-setup-1.2.exe)
+#1 First, click this link [click here](https://dl.espressif.com/dl/esp-idf-tools-setup-1.2.exe) for the downloaded needed
 
-#2 After the installation is done, click this link [click here](https://gitforwindows.org/)
+#2 After the installation is done, click this link [click here](https://gitforwindows.org/) to download git
     if you already have git installed, you may skip this step.
 
 #3 Please past these commands in the cmd terminal
