@@ -33,7 +33,7 @@ git submodule update --init
 ```
 
 #6 nearly done, we need to run the menuconfig command, past the following code into vscode terminal
-- CTRL + SHIFT + ~ to open terminal in vscode
+- (CTRL + SHIFT + ~) to open terminal in vscode
 ```
  cd %userprofile%\esp\hello_world
  idf.py menuconfig 
